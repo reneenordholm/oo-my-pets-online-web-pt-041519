@@ -13,6 +13,10 @@ class Owner
     @@count << self
     @@reset_all << self
   end
+  
+  def say_species
+    puts "I am a #{species}."
+  end
 
   def self.all
     @@all
