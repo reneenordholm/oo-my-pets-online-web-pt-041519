@@ -1,3 +1,5 @@
+require 'pry'
+
 class Owner
   attr_accessor :name, :pets
   attr_reader :species
@@ -52,6 +54,7 @@ class Owner
   
   def sell_pets
     @pets.each do { |key, value| value.mood = "nervous" }
+    end
   end
 
   def self.all
