@@ -3,6 +3,8 @@ class Owner
 
   @@all = []
   @@count = []
+  @@reset_all 
+  
   
   def initialize(owner)
     @owner = owner
@@ -16,5 +18,9 @@ class Owner
   
   def self.count
     @@count.count
+  end
+  
+  def self.reset_all
+    
   end
 end
