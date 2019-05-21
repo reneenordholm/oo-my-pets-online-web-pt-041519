@@ -3,4 +3,5 @@ class Owner
   
   def initialize(owner)
     @@all << owner
+  end
 end
