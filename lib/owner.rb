@@ -1,13 +1,14 @@
 class Owner
-  
+  attr_accessor :name
   attr_reader :species
 
   @@all = []
   @@count = []
   @@reset_all = [] 
   
-  def initialize
-
+  def initialize(owner, name)
+    @owner = owner
+    @name = name
     @species = "human"
     @@all << self
     @@count << self
