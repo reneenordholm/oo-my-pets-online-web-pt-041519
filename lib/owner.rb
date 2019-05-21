@@ -6,7 +6,7 @@ class Owner
   @@count = []
   @@reset_all = [] 
   
-  def initialize(owner, name)
+  def initialize(owner)
     @owner = owner
     @name = name
     @species = "human"
