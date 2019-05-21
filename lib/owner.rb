@@ -5,7 +5,7 @@ class Owner
   
   def initialize(owner)
     @owner = owner
-        @@all << owner
+        @@all << @owner
   end
 
   def self.all
