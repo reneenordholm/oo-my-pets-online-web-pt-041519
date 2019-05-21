@@ -32,7 +32,9 @@ class Owner
     @pets[:dogs] << Dog.new(dog)
   end
   
-  
+  def walk_dogs
+    
+  end
 
   def self.all
     @@all
