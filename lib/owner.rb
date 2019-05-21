@@ -33,7 +33,7 @@ class Owner
   end
   
   def walk_dogs
-    @owner.mood = "happy"
+    owner.mood = "happy"
   end
 
   def self.all
