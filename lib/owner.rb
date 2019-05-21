@@ -14,8 +14,8 @@ class Owner
     @@reset_all << self
   end
   
-  def say_species
-    puts "I am a #{self.species}."
+  def self.say_species
+    puts "I am a #{species}."
   end
 
   def self.all
