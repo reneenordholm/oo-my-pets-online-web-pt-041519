@@ -54,7 +54,7 @@ class Owner
   
   def sell_pets
     @pets.each { |pet, array| }
-      arr.map { |mood| mood = "nervous" }
+      arr.map { |mood| pet.mood = "nervous" }
     end
     return arr
   end
