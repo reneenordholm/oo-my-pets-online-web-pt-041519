@@ -56,6 +56,7 @@ class Owner
     @pets.each { |pet, array| }
       arr.map { |mood| pet.mood = "nervous" }
     end
+    arr.clear
   end
 
   def self.all
