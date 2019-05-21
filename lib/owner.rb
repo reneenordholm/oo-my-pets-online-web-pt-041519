@@ -6,7 +6,7 @@ class Owner
   @@count = []
   @@reset_all = [] 
   
-  def initialize(owner, species)
+  def initialize(owner)
     @owner = owner
     @species = species
     @@all << self
