@@ -5,10 +5,11 @@ class Owner
   
   def initialize(owner)
     @owner = owner
-        @@all << @owner
+
   end
 
   def self.all
+    @@all << owner
     @@all
   end
 end
