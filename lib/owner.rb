@@ -14,7 +14,7 @@ class Owner
     @@reset_all << self
   end
   
-  def self.say_species
+  def say_species
     puts "I am a human."
   end
 
