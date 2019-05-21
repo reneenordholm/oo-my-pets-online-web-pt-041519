@@ -6,8 +6,8 @@ class Owner
   @@count = []
   @@reset_all = [] 
   
-  def initialize(owner)
-    @owner = owner
+  def initialize
+
     @species = "human"
     @@all << self
     @@count << self
