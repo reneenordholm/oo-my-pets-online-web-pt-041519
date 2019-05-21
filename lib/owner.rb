@@ -10,6 +10,7 @@ class Owner
     @owner = owner
     @name = name
     @species = "human"
+    @pets = pets
     @@all << self
     @@count << self
     @@reset_all << self
