@@ -21,7 +21,8 @@ class Owner
   end
   
   def buy_fish(fish)
-    @fish[:fishes] = fish
+    #add fish from Fish class
+    
   end
 
   def self.all
