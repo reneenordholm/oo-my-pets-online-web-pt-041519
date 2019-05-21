@@ -53,8 +53,10 @@ class Owner
   end
   
   def sell_pets
-    @pets.each { |key, value| }
-    binding.pry
+    @pets.each { |pet, array| }
+      arr.map { |mood| mood = "nervous" }
+    end
+    return arr
   end
 
   def self.all
